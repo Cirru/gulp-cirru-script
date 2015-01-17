@@ -1,5 +1,5 @@
 
-Gulp CirrScript
+Gulp CirruScript
 ----
 
 ### Usage
