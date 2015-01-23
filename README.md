@@ -19,11 +19,18 @@ gulp.task 'script', ->
   gulp
   .src 'source/**/*.cirru', base: 'source/'
   .pipe sourcemaps.init(debug: yes)
-  .pipe script()
+  .pipe script(dest: '../build/')
   .pipe rename(extname: '.js')
   .pipe sourcemaps.write('./')
   .pipe gulp.dest('build/')
 ```
+
+### Options
+
+* `dest`(required)
+
+Destination folder for Compiled JavaScript code,
+which is relative to `base` in `gulp.src`.
 
 ### License
 
