@@ -1,6 +1,6 @@
 {
   "name": "gulp-cirru-script",
-  "version": "0.0.2-1",
+  "version": "0.0.2-2",
   "description": "Gulp plugin of CirruScript compiler",
   "main": "lib/index.js",
   "scripts": {
@@ -23,5 +23,13 @@
     "gulp-coffee": "^2.2.0",
     "gulp-plumber": "^0.6.6",
     "gulp-watch": "^3.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cirru/gulp-cirru-script.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cirru/gulp-cirru-script/issues"
+  },
+  "homepage": "https://github.com/Cirru/gulp-cirru-script"
 }
