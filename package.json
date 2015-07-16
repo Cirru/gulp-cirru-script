@@ -18,7 +18,7 @@
     "scirpus": "^0.4.19"
   },
   "devDependencies": {
-    "gulp": "^3.8.10",
+    "gulp": "^3.9.0",
     "gulp-util": "^3.0.2",
     "through2": "^0.6.3"
   },

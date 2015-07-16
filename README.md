@@ -33,7 +33,6 @@ gulp
 
 ### Development
 
-* use `interpret@0.5.x` to replace dependency in old Gulp
 * build with `gulp script`
 
 ### License
