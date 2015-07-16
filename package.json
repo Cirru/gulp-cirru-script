@@ -1,6 +1,6 @@
 {
   "name": "gulp-cirru-script",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Gulp plugin of CirruScript compiler",
   "main": "lib/index.js",
   "scripts": {
@@ -12,16 +12,15 @@
   "author": "jiyinyiyong",
   "license": "MIT",
   "dependencies": {
-    "cirru-script": "0.2.x",
-    "gulp-util": "^3.0.2",
-    "through2": "^0.6.3"
+    "cirru-parser": "^0.10.2",
+    "cirru-script": "^0.2.3",
+    "escodegen": "^1.6.1",
+    "scirpus": "^0.4.19"
   },
   "devDependencies": {
-    "coffee-script": "^1.8.0",
     "gulp": "^3.8.10",
-    "gulp-coffee": "^2.2.0",
-    "gulp-plumber": "^0.6.6",
-    "gulp-watch": "^3.0.0"
+    "gulp-util": "^3.0.2",
+    "through2": "^0.6.3"
   },
   "repository": {
     "type": "git",

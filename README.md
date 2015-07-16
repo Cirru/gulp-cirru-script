@@ -20,6 +20,22 @@ gulp.task 'script', ->
   .pipe gulp.dest('build/')
 ```
 
+### Options
+
+* es6(outputs ES6)
+
+```
+gulp
+.src 'source/**/*.cirru'
+.pipe script(es6: true)
+.pipe gulp.dest('build/')
+```
+
+### Development
+
+* use `interpret@0.5.x` to replace dependency in old Gulp
+* build with `gulp script`
+
 ### License
 
 MIT
