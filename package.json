@@ -1,6 +1,6 @@
 {
   "name": "gulp-cirru-script",
-  "version": "0.5.0-alpha2",
+  "version": "0.5.2-1",
   "description": "Gulp plugin of CirruScript compiler",
   "main": "lib/index.js",
   "scripts": {
@@ -13,10 +13,10 @@
   "license": "MIT",
   "dependencies": {
     "cirru-parser": "^0.10.2",
-    "cirru-script": "0.5.0-alpha2",
+    "cirru-script": "0.5.2-1",
     "escodegen": "^1.6.1",
     "gulp-util": "^3.0.2",
-    "scirpus": "0.4.26",
+    "scirpus": "0.5.2",
     "through2": "^0.6.3"
   },
   "devDependencies": {
