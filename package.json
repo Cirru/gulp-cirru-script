@@ -1,6 +1,6 @@
 {
   "name": "gulp-cirru-script",
-  "version": "0.5.2-1",
+  "version": "0.5.3-0",
   "description": "Gulp plugin of CirruScript compiler",
   "main": "lib/index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "cirru-script": "0.5.2-1",
     "escodegen": "^1.6.1",
     "gulp-util": "^3.0.2",
-    "scirpus": "0.5.2",
+    "scirpus": "0.5.3",
     "through2": "^0.6.3"
   },
   "devDependencies": {
